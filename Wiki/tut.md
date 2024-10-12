@@ -1,0 +1,56 @@
+- We need react for the complex frontend .
+- React was created for the Phantom message. Which was the issue of the facebook .
+- State is maintained by the js . State is faincy name of the variable .
+- UI is maintained by the DOM . 
+- There was the issue of the sync between UI and State . To solve this issue react js was created .
+- Khan academy and Unplash adopted this at the first and they have appriciated it lot .
+- Watch inner working of the dom .
+- Go in depth method and then go for the project .
+- Babel ,Fibre, VirtualDOM , diffing algo hydration ,.Tree shaking are the depth of the reactjs .
+- React is the a library . 
+ - Framework is military where is strict rule  and type safety .
+ - Library is cool dude  where is there is no hard and strict rule of it .
+
+- Topic to learn 
+  - Core of react (state or UI manipulation,JSX).
+  - Component Reability .
+  - Reusing of component (Props) [Props means the property of the object];
+  - How to propgate change (hooks). 
+- React make SPA (Single page application),which means page are nor reloaded . But we
+- There is no router in the reactjs .
+- By defualt there was no state management . Redux,Toolkit,zustand ,context API .
+- React is fucntion based component .
+- BAAS Apps . Backend as a service . 
+- Reactjs is not the complete solution as it not perfect for  SEO .
+- Browser rendring issue of the of the reacthjs .
+- Next js remix is the next solution for the these issue  .
+# Creating project
+- Npm is the node package manager .
+- npx is the node package executor 
+- npx create-react-app 01basicreact .
+- Then move to that project to view the package that file .'
+- Under the node.json file we see the web-vitals which measure the performance of the site and to track the performance .
+- We will see the scripts to which run the project and build the production things .
+- eslinting is use to see the error .
+- browser list the working browser .
+-  There is difference between npm run and npm  start , so intially we should run the project  with the npm run to avoid the exception .
+- npm build is serve to the production user . Here you can find the user ready file size and deploy to the end user .
+- Create is the utility .
+- Dev dependicies doesn't go into the production , It only go to the development .
+ # Level 1
+  - `<h1></h1>` This is the heading on a web-page  and there is heading level of these things .h1 is the top level things and h6 is for the lowest level .
+  - If we want action on any button then we can write the onclick method .
+  - React control the UI updation .
+  - `Hook`
+     -  Hooks are the functions that is use to use state and other React features without writing the class .
+     - 
+# Virtual DOM 
+-  At the present we dont use much part of the virtual dom .
+- Inside the virtual dom we tack the entire change and trace the change with the tree like structure .
+- Create root create the full dom behind the scene , 
+  - Browser do the rebuilding of the dom thats why there is refresh time .
+  - There is virtual dom but we use the Fiber algorithm .
+# Tailwind 
+- make project and go inside the project .
+- run this command 
+- Edit the config file .
