@@ -108,8 +108,15 @@
 - Functional components are known as the stateless components. It accept the props and return the HTML 
 - Class componetns are know as the stateful components 
 - npm install react-navigation
+- State holds dynamic private data for a component , its mutable and local to the component and most use case is  that it changes over time .
+- Props hold data passed from a parent component these are immuatable passed from parents to the child componetns , used for static components 
+- In simple term state is the memory of the components .
+- `npx react-native run-android`
+- `npx react-native run-ios.` 
+- `expo start` 
 
-
+- Functional componets are writeen in the Javascript functions 
+- Class components are written as ES6 classes they uses the lifecycle methods.
 # Virtual DOM 
 -  At the present we dont use much part of the virtual dom .
 - Inside the virtual dom we tack the entire change and trace the change with the tree like structure .
