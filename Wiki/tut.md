@@ -43,7 +43,73 @@
   - React control the UI updation .
   - `Hook`
      -  Hooks are the functions that is use to use state and other React features without writing the class .
-     - 
+- <Container>
+  - A container is the reusable peice of the code that encapsulated specific functionality or ui structure .
+    - There are pre built components (Buttons and imqnge and view)
+    - There are customs components .
+
+- <View> 
+   - A view is the container for laying out child components and it is similiar to the <div> in the web development .
+   - It is used to build the structure of the app . 
+   - It is container that holds other components .
+   - View is for the static content  .
+   - In short smjho view ik fix box area leta h and the uske andr specific area dekr  chizo ko design krta hai .
+
+- <ScrollView>
+  -  This is for the dynamic content and it disadvantage is that it wont perform well with the more complext data .
+  - 
+- <Text>
+   - It is used to display the textual content .
+   - Supports the nesting ,inline styling and the touch handling 
+- <Image> 
+  -  Display image from the locat or remote source .
+  -  Works with the variety of formats (eg.png,.jpg,)
+- <ScrollView>
+   - A scrollable container for displaying long list or views 
+   - Can handle both vertical and the horizontal scrolling 
+- <Flatlist>
+   - Optimized for displaying larger datasets efficently.
+   - Supports lazy loading and performance optimization 
+- <Touchable>
+  - Used for handling user interaction 
+  - TouchableOpacity reduce opacity on press 
+  - Touchable Highlight Add a background color on press .
+- <Text input>
+   - Used for uset input like forms and search bars 
+- <Buttons>
+  - A simple button for user actions 
+- <SafeAreaView> 
+  - Ensure content doesn't overlap with the system UI area like noches and the status bars .
+- <Modal>
+  - Display the content in the overlay window 
+- <SectionList> 
+  - Similiar to flatlist but for grouped data .
+- <Picker>
+  - A dropdown selctor for choosing items 
+- <Animated >
+  - A base API for creating animation
+- <Checkbox> 
+  -  A toggleable for checkbox input 
+- <Slider>
+  - A slider for selcetion a value within a range 
+- <statusbar>
+  - Manages the appearance of the device status baar
+  - statusbar is the topmost part of the screen on the mobile device showing system related information .
+
+- <Flexbox> 
+  - A flexbox  is powerful layout system that allows you to control the arrangement of the child components inside a container .
+  - It simply determine how much space child should have .
+  - Flex 1 means take up all the available space .
+  - Flex n represent the propotional share available space the component should occupy compared to its siblings .
+  Eg if the `flex: 1` and the another has the `flex:2` then the second will have take the twice as musch space as the first .
+- React Native is not strictly based on the MVC (Model-View-Controller) architecture . Instead React native follows a components based architure that is closer to the MVVM (Model-View-ViewModel)
+- JSX stands for the jacascript xml which  helpd to code html like code in javascript to define how app should look like .
+- Component are resuable piece of the code  view text button are the pre-built one .
+- Functional components are known as the stateless components. It accept the props and return the HTML 
+- Class componetns are know as the stateful components 
+- npm install react-navigation
+
+
 # Virtual DOM 
 -  At the present we dont use much part of the virtual dom .
 - Inside the virtual dom we tack the entire change and trace the change with the tree like structure .
