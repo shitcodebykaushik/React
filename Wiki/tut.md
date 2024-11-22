@@ -48,7 +48,7 @@
     - There are pre built components (Buttons and imqnge and view)
     - There are customs components .
 
-- <View> 
+- View
    - A view is the container for laying out child components and it is similiar to the <div> in the web development .
    - It is used to build the structure of the app . 
    - It is container that holds other components .
