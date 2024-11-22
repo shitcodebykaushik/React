@@ -1,0 +1,25 @@
+-  NativeScript is an open-source framework for building native mobile applications for iOS and Android using JavaScript, TypeScript, or frameworks like Angular and Vue.js. 
+
+- A NativeScript application consists of several different layer 
+  - JavaScript/TypeScript Layer: Where business logic is implemented.
+  - NativeScript Runtime: Bridges the JavaScript code with the native APIs.
+  - Native Layer: The actual code that runs on the device using native components.
+  - App Modules: The entry point of the application.
+  - Page Modules: Represent individual screen
+  - View Components: Widgets that represent UI elements.
+  - The root module (app-root.xml or app.component.ts) serves as the main entry point for the application, managing initial page navigation and global services 
+  - Navigation is managed using the Frame module .
+  - The Frame is an important UI component used to manage navigation between different pages in a mobile application. It functions as a container that holds the current page and provides a mechanism to navigate between multiple pages .
+  -  <?xml version="1.0" encoding="utf-8" ?> - XML declaration.
+  - <Page> - Defines a single page in a NativeScript application.
+  - <GridLayout> - Used to arrange child elements in rows and columns.
+  - <Label> - Displays text.
+  - <SearchBar> - A search input component allowing users to search text.
+  - <ScrollView> - A scrollable container that allows vertical or horizontal scrolling.
+  -<StackLayout> - A layout container that arranges its child elements in a stack, either horizontally or vertically.
+  - <Repeater> - Used to render a set of elements based on an array of items.
+  -<Repeater.itemTemplate> - Template used by the Repeater to define how each item should be displayed.
+  - <Image> - Displays an image.
+  - <TextField> - An input field allowing users to enter text.
+  - <StackLayout> - A layout container that arranges its child elements in a stack, either horizontally or vertically.
+  
