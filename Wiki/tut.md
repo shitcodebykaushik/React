@@ -79,13 +79,13 @@
   - Touchable Highlight Add a background color on press .
 - Text input
    - Used for uset input like forms and search bars 
-- <Buttons>
+- Buttons
   - A simple button for user actions 
 - SafeAreaView
   - Ensure content doesn't overlap with the system UI area like noches and the status bars .
 - Modal
   - Display the content in the overlay window 
-- <SectionList> 
+- SectionList 
   - Similiar to flatlist but for grouped data .
 - Picker
   - A dropdown selctor for choosing items 
