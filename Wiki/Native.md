@@ -10,16 +10,18 @@
   - The root module (app-root.xml or app.component.ts) serves as the main entry point for the application, managing initial page navigation and global services 
   - Navigation is managed using the Frame module .
   - The Frame is an important UI component used to manage navigation between different pages in a mobile application. It functions as a container that holds the current page and provides a mechanism to navigate between multiple pages .
-  -  <?xml version="1.0" encoding="utf-8" ?> - XML declaration.
+  - <?xml version="1.0" encoding="utf-8" ?> - XML declaration.
   - <Page> - Defines a single page in a NativeScript application.
   - <GridLayout> - Used to arrange child elements in rows and columns.
   - <Label> - Displays text.
   - <SearchBar> - A search input component allowing users to search text.
   - <ScrollView> - A scrollable container that allows vertical or horizontal scrolling.
-  -<StackLayout> - A layout container that arranges its child elements in a stack, either horizontally or vertically.
+  - <StackLayout> - A layout container that arranges its child elements in a stack, either horizontally or vertically.
   - <Repeater> - Used to render a set of elements based on an array of items.
-  -<Repeater.itemTemplate> - Template used by the Repeater to define how each item should be displayed.
+  - <Repeater.itemTemplate> - Template used by the Repeater to define how each item should be displayed.
   - <Image> - Displays an image.
   - <TextField> - An input field allowing users to enter text.
   - <StackLayout> - A layout container that arranges its child elements in a stack, either horizontally or vertically.
-  
+  - <Frame> A frame  is the UI navigation component  that acts as the  contianer for naviagting between different pages in the application  .
+  - <Class> A class attributes contain multipl class name seprated by the spaces .
+  - 

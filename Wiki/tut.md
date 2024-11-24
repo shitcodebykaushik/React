@@ -25,6 +25,9 @@
 - Browser rendring issue of the of the reacthjs .
 - Next js remix is the next solution for the these issue  .
 # Creating project
+- `Expo init MynewProject`
+- `Expo start`
+- `expo install @react-navigation/native react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated @react-navigation/stack` This is for the naviagation .
 - Npm is the node package manager .
 - npx is the node package executor 
 - npx create-react-app 01basicreact .
@@ -123,7 +126,13 @@
 - Create root create the full dom behind the scene , 
   - Browser do the rebuilding of the dom thats why there is refresh time .
   - There is virtual dom but we use the Fiber algorithm .
-# Tailwind 
-- make project and go inside the project .
-- run this command 
-- Edit the config file .
+# Css 
+- `layout` It refers to the way content is arranged on the  page .
+- `align` means the positoning of the element of the container.It determines how the elements are arranged along the specific axis (horizontal or vertical)
+- `flex` It layout model that helps you to design and align items within a container efficinetly.
+- `justifycontent` align the items along the main axis of the flex container 
+- `alignitems` align the items along the cross-axix of the flex
+- `padding`  Add the inner space around the content inside an element
+- `fontsize` sets the size of the font
+- `fontweight` controls the thickness of the font
+- `marginbottom` Add space below an element
