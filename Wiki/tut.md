@@ -67,7 +67,7 @@
 - <Image> 
   -  Display image from the locat or remote source .
   -  Works with the variety of formats (eg.png,.jpg,)
-- <ScrollView>
+- ScrollView
    - A scrollable container for displaying long list or views 
    - Can handle both vertical and the horizontal scrolling 
 - <Flatlist>
