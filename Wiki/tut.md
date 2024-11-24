@@ -46,60 +46,60 @@
   - React control the UI updation .
   - `Hook`
      -  Hooks are the functions that is use to use state and other React features without writing the class .
-- <Container>
+- Container
   - A container is the reusable peice of the code that encapsulated specific functionality or ui structure .
     - There are pre built components (Buttons and imqnge and view)
     - There are customs components .
 
-- <View> 
+- View
    - A view is the container for laying out child components and it is similiar to the <div> in the web development .
    - It is used to build the structure of the app . 
    - It is container that holds other components .
    - View is for the static content  .
    - In short smjho view ik fix box area leta h and the uske andr specific area dekr  chizo ko design krta hai .
 
-- <ScrollView>
+- ScrollView
   -  This is for the dynamic content and it disadvantage is that it wont perform well with the more complext data .
   - 
-- <Text>
+- Text
    - It is used to display the textual content .
    - Supports the nesting ,inline styling and the touch handling 
-- <Image> 
+- Image
   -  Display image from the locat or remote source .
   -  Works with the variety of formats (eg.png,.jpg,)
 - ScrollView
    - A scrollable container for displaying long list or views 
    - Can handle both vertical and the horizontal scrolling 
-- <Flatlist>
+- Flatlist
    - Optimized for displaying larger datasets efficently.
    - Supports lazy loading and performance optimization 
-- <Touchable>
+- Touchable
   - Used for handling user interaction 
   - TouchableOpacity reduce opacity on press 
   - Touchable Highlight Add a background color on press .
-- <Text input>
+- Text input
    - Used for uset input like forms and search bars 
 - <Buttons>
   - A simple button for user actions 
-- <SafeAreaView> 
+- SafeAreaView
   - Ensure content doesn't overlap with the system UI area like noches and the status bars .
-- <Modal>
+- Modal
   - Display the content in the overlay window 
 - <SectionList> 
   - Similiar to flatlist but for grouped data .
-- <Picker>
+- Picker
   - A dropdown selctor for choosing items 
-- <Animated >
+- Animated 
   - A base API for creating animation
-- <Checkbox> 
+- Checkbox
   -  A toggleable for checkbox input 
-- <Slider>
+- Slider
   - A slider for selcetion a value within a range 
-- <statusbar>
+- statusbar
   - Manages the appearance of the device status baar
   - statusbar is the topmost part of the screen on the mobile device showing system related information .
 
-- <Flexbox> 
+- Flexbox
   - A flexbox  is powerful layout system that allows you to control the arrangement of the child components inside a container .
   - It simply determine how much space child should have .
   - Flex 1 means take up all the available space .
